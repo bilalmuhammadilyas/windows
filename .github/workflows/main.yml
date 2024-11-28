@@ -1,10 +1,8 @@
 name: Windows - LiteManager
 
-
 on:
 
   workflow_dispatch:
-
 
 jobs:
 
@@ -14,9 +12,7 @@ jobs:
 
     runs-on: windows-latest
 
-    timeout-minutes: 9999
-
-    
+    timeout-minutes: 9999 
 
     steps:
 
